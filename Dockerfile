@@ -1,6 +1,6 @@
 FROM openjdk:11
 
-COPY target/spring-boot-docker-app.jar  /usr/app/
+COPY .  .
 
 WORKDIR /usr/app/
 
